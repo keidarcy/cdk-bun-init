@@ -10,7 +10,9 @@
     "test": "jest",
     "cdk": "cdk",
     "lint": "biome lint . --vcs-enabled=true",
-    "format": "biome format . --vcs-enabled=true"
+    "format": "biome format . --vcs-enabled=true",
+    "list": "cdk list",
+    "synth": "cdk synth"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
