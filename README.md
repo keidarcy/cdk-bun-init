@@ -1,14 +1,19 @@
-# Welcome to your CDK TypeScript project
+# cdk-bun-init
 
-This is a blank project for CDK development with TypeScript.
+Minimal [cdk](https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html) setup alternative to `cdk init app --language typescript`, using [Bun](https://bun.sh/) and [Biome](https://biomejs.dev/).
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Prerequisites
 
-## Useful commands
+- [Install Bun](https://bun.sh/docs/installation)
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+## Setup
+
+Run `bun install` to install all dependencies.
+
+## Test
+
+`bun run cdk list`
+
+`bun run cdk synth`
+
+[Minimal cdktf bun setup](https://github.com/keidarcy/cdktf-bun-init)
